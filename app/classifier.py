@@ -5,7 +5,7 @@ def classify_ticket(text):
     openai.api_key = API_KEY
     openai.api_base = ENDPOINT
     response = openai.ChatCompletion.create(
-        engine='gpt-35-turbo',
+        engine='gpt-4o',
         messages=[
             {'role': 'system', 'content': 'Classify the IT support issue.'},
             {'role': 'user', 'content': f'{text}'}
