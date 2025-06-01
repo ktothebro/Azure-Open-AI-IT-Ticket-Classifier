@@ -30,21 +30,6 @@ Automatically classify IT support tickets into categories:
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-azure_ai_foundry_starter/
-├── .env                  # API keys and endpoint configuration
-├── main.py               # Entry point to run classifier
-├── azure_ai_client.py    # Azure OpenAI wrapper
-├── tasks/
-│   └── classify.py       # Ticket classification logic
-├── requirements.txt      # Python dependencies
-├── .gitignore            # Ignore .env and cache files
-└── README.md             # This file
-
----
-
 ## 🪜 How It Works – Step-by-Step
 
 ### 🔹 1. User Submits a Support Request
@@ -62,3 +47,18 @@ The request body includes a plain-text description of the issue.
 
 ### 🔹 3. Azure OpenAI Classifies the Ticket
 A prompt is sent to GPT using the Azure OpenAI API.
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+azure_ai_foundry_starter/
+├── .env                  # API keys and endpoint configuration
+├── main.py               # Entry point to run classifier
+├── azure_ai_client.py    # Azure OpenAI wrapper
+├── tasks/
+│   └── classify.py       # Ticket classification logic
+├── requirements.txt      # Python dependencies
+├── .gitignore            # Ignore .env and cache files
+└── README.md             # This file
