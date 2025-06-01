@@ -38,12 +38,8 @@ Submitted via:
 - Power Apps form
 - Webhook or other Logic App trigger
 
----
-
 ### 🔹 2. Logic App or API Receives the Ticket
 The request body includes a plain-text description of the issue.
-
----
 
 ### 🔹 3. Azure OpenAI Classifies the Ticket
 A prompt is sent to GPT using the Azure OpenAI API.
