@@ -42,3 +42,23 @@ azure_ai_foundry_starter/
 ├── requirements.txt      # Python dependencies
 ├── .gitignore            # Ignore .env and cache files
 └── README.md             # This file
+
+---
+
+## 🪜 How It Works – Step-by-Step
+
+### 🔹 1. User Submits a Support Request
+Submitted via:
+- Email
+- Power Apps form
+- Webhook or other Logic App trigger
+
+---
+
+### 🔹 2. Logic App or API Receives the Ticket
+The request body includes a plain-text description of the issue.
+
+---
+
+### 🔹 3. Azure OpenAI Classifies the Ticket
+A prompt is sent to GPT using the Azure OpenAI API.
