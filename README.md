@@ -1,6 +1,6 @@
 # Azure-Open-AI-IT-Ticket-Classifier
 
-**IT Ticket Classifier Beginner Project**  
+**IT Ticket Classifier Project**  
 Uses Azure OpenAI and related Azure tools to automatically classify IT support tickets and assist in routing and decision-making.
 
 ---
